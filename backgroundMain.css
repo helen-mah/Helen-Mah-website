@@ -1,0 +1,7 @@
+body {
+    background: #d2b4947d;
+    background-image: url('background.jpg');
+    background-color: #d2b4947d;
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
