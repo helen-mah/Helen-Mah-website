@@ -1,0 +1,202 @@
+.home-body {
+    background: black;
+}
+.tab-body {
+    background-color: bla;
+}
+.main-body {
+    background: black;
+}
+.center {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 4.5cm;
+    font-family: "Serif", "Garamond", "Georgia";
+    font-weight: 600;
+}
+.left {
+    /* display: none; */
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 2vw;
+    font-family: "Serif", "Garamond", "Georgia";
+    /* padding-top: 200px; */
+}
+.p3 {
+    font-family: "Serif", "Garamond", "Georgia";
+}
+.button {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+    background-color: black;
+    /* border: 0px;
+    color: #8a755f;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 40px 16px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px; */
+}
+.t-button {
+    background-color: black;
+    border: 0px;
+    color: #ffffff;
+    /* padding: 32px 20px; */
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1vw;
+    font-family: Serif;
+    cursor: pointer;
+    border-top: 14vh;
+    border-bottom: 0;
+    border-left: 90vw;
+    border-right: 0;
+    margin-top: 33vh;
+    margin-bottom: 0;
+    margin-left: 90vw;
+    margin-right: 0;
+}
+.h1 {
+    color:#8a755f; 
+    font-weight: bold; 
+    text-align: right; 
+    padding-right: 2px; 
+    padding-left: 15px;
+}
+.h2 {
+    color:#878787; 
+    font-weight: bold; 
+    text-align: left; 
+    padding-left: 2px;
+}
+
+.p1 {
+    color:#878787; 
+    font-weight: bold; 
+    text-align: left; 
+    padding-left: 2px;
+}
+
+/**************************** NAVBAR START ****************************/
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+} */
+
+/*
+.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: black;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if the sidenav has too much content 
+}
+*/
+.sidenav {
+    height: 100%;
+    width: 15vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 1vw;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 0;
+    padding-left: 1.1vw;
+    text-decoration: none;
+    /* transform-origin: 0 0;
+    transform: rotate(90deg); */
+    writing-mode:vertical-rl;
+    font-family: "Garamond";
+    font-size: 15px;
+}
+li b {
+    display: block;
+    color: white;
+    /* width: 50vw; */
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2.6vw;
+    padding-right: 0.5vw;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: "Garamond";
+}
+li c {
+    display: none;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 0px;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+li a:hover {
+    background-color: #575757;
+}
+
+aside {
+    display: block;
+    position: relative;
+    /* margin: 40px 0; */
+}
+/**************************** NAVBAR END ****************************/
+
+/**************************** Welcome page START ****************************/
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    /* padding-top: 200px; */
+    margin-top: 40vh;
+    margin-bottom: 15.5vh;
+    animation: 
+        typing 5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+/**************************** Welcome page END ****************************/
+
+/*****************************ABOUT START***************************/
+.section {
+    background-color: black;
+    margin-left: 20vw;
+}
+.img3 {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;;
+}
