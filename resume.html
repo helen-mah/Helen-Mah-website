@@ -1,89 +1,74 @@
-<html>
+<html class="tab-body">
     <head>
     <title>Helen Mah</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Helen Mah</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css"></link>
-        <link rel="stylesheet" type="text/css" href="background.css"></link>
+        <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
 
-
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item h1" href="index.html">
-                Helen Mah
-            </a>
-            <a class="navbar-item h2" href="https://www.tamu.edu/">
-                / Student at Texas A&M University
-            </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div class="navbar-end">
-
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-            <a class="navbar-item" href="index.html">
-                HOME
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable has-text-black">
-                <a class="navbar-link">
-                ABOUT ME
-                </a>
-
-                <div class="navbar-dropdown">
-                <a class="navbar-item" href="about.html">
-                    INTRO
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item" href="resume.html">
-                    RESUME
-                </a>
-                </div>
-            </div>
-
-            <a class="navbar-item" href="projects.html">
-                PROJECTS
-            </a>
+    <body class="main-body">
+        <div class="sidenav">
+            <li><b href="index.html">Helen Mah</b></li>
+            <li><c href="https://www.tamu.edu/">/ Student at Texas A&M University</c></li>
             
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                OTHER
-                </a>
-
-                <div class="navbar-dropdown">
-                <a class="navbar-item" href="gallery.html">
-                    GALLERY
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item" href="connect.html">
-                    CONNECT
-                </a>
-                </div>
-            </div>
-
-            </div>
-            </div>
+            <li><a class="active" href="chatGPT.html">CHATGPT</a></li>
+            <li><a class="active" href="connect.html">CONNECT</a></li>
+            <li><a class="active" href="services.html">SERVICES</a></li>
+            <li><a class="active" href="projects.html">PROJECTS</a></li>
+            <li><a class="active" href="resume.html">RESUME</a></li>
+            <li><a class="active" href="about.html">ABOUT ME</a></li>
+            <li><a class="active" href="index.html">HOME</a></li>
         </div>
-    </nav>
 
-    <body>
         <section class="section">
-            <div class="columns is-centered">
-            <div class="container">
-                <h1 class="left">
-                    resume
+                <h1 class="pdf">
+                    <a href="helen_mah-resume.pdf" download="helen-mah-resume">View or Download pdf version</a>
                 </h1>
-            </div>
+            <div class="qualification-box">
+                <h1 class="skillsHeading">
+                    Technical skills
+                </h1>
+                <p class="skillsBody">
+                    Python: Python is the first programming language I learned in sophomore year of high school 
+                    and have been working with it since. I have taken multiple courses in Python including CSCE411, 
+                    CSCE421, and CSCE430. In addition, I work as a peer mentor for CSCE102, a beginner Python 
+                    course for all freshmen in General Engineering. As a peer mentor, I assist students in coding 
+                    labs and hold office hours for students to ask any programming-related questions.
+                </p>
+                <p class="skillsBody">
+                    C++: I took my first C++ course as a freshman at Texas A&M and continued to take higher level 
+                    courses such as CSCE221 and CSCE313. In the Competitive Programming class, I am learning to use 
+                    C++ to code efficient, low time complexity code in a given time to solve a problem. 
+                </p>
+                <p class="skillsBody">
+                    LaTeX: I have been using LateX for about six years to format homework submissions and project 
+                    write-ups. I learned to format paragraphs, formulas, diagrams, and images. I am able to create
+                    documents how I want them to look like and perform the necessary tasks in LaTeX. 
+                </p>
+                <p class="skillsBody">
+                    Dart & Flutter: I learned Dart and Flutter in the summer 2022 while working on a personal project. 
+                    Being relatively new language and platform, I had to use their official website for tutorials and 
+                    examples. Similar to React, Flutter is a platform that can be used to build mobile apps and website. 
+                    Dart is the programming language used for the Flutter platform. 
+                </p>
+                <p class="skillsBody">
+                    Other technical skills I have worked with and am familiar with are Java, React, Javascript, 
+                    HTML, CSS, and Pandas.
+                </p>
+                <h1 class="skillsHeading">
+                    Technical areas of interest:
+                </h1>
+                <p class="skillsBody">
+                    I currently have multiple areas of interest in the technical field including Software 
+                    Engineer, Web Developer, and Data Analytics. Specific areas also include Artificial 
+                    Intelligence, Machine Learning, Cybersecurity, and Data Science. I'm looking forward to 
+                    exploring and learning about more opportunities 
+                </p>
             </div>
         </section>
-        </body>
+    </body>
+    <button onclick="toggleStyleSheet()" type="button" class="t-button">Toggle Style</button>
+    <script src="functions.js"></script>
 </html>
