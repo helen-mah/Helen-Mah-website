@@ -22,6 +22,9 @@ window.onload = function(){
     element.setAttribute("href", styleElement);
 }
 
+toggleStyleSheet();
+toggleStyleSheet();
+
 function show() {
     /*https://www.geeksforgeeks.org/how-to-show-images-on-click-using-html/*/
     document.getElementById('image')
