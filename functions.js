@@ -22,8 +22,12 @@ window.onload = function(){
     element.setAttribute("href", styleElement);
 }
 
-toggleStyleSheet();
-toggleStyleSheet();
+
+if(!localStorage.getItem("visited")){
+    toggleStyleSheet();
+    localStorage.setItem("visited",true);
+}
+
 
 function show() {
     /*https://www.geeksforgeeks.org/how-to-show-images-on-click-using-html/*/
