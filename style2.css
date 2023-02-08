@@ -375,3 +375,43 @@ aside {
         typing 5s steps(40, end),
         blink-caret .75s step-end infinite;
 }
+
+/***************************PROJECTS START**************************/
+.projects {
+    background-color: none;
+    padding: 1.5vw;
+    margin: 1vw;
+    width: 90%;
+    text-align: center;
+    height: 15vw;
+    font-family: "Garamond";
+}
+.p-title {
+    color:white; 
+    font-weight:500; 
+    font-size: 25px;
+    font-family: "Garamond";
+}
+.p-date {
+    /* margin-left:0.6vw; */
+    margin-top:0.75vw;
+    color:white; 
+    font-weight:100; 
+    font-size: 0.75vw;
+    font-family: "Garamond";
+}
+.p-content {
+    /* margin-right:0.5vw;
+    margin-left:0.5vw; */
+    margin-top:0.5vw;
+    color:white; 
+    font-weight:100; 
+    font-size: 1vw;
+    font-family: "Garamond";
+}
+/* .dash{
+    border: 2px solid #ffffff80;
+    width: 7vw;
+    height: 0px;
+    margin-left: 22vw;
+} */

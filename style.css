@@ -74,7 +74,7 @@
     /* margin: 0; */
     cursor: pointer;
     /* margin-top: 1%; */
-    margin-bottom: 0;
+    margin-bottom: 2vw;
     margin-left: 90vw;
     margin-right: 0;
     /* position: relative;
@@ -216,18 +216,20 @@ li a:hover {
     font-family: sans-serif;
 }
 .skillsHeading {
-    color:#4b4033; 
-    font-weight:400; 
+    color:#8a755f; 
+    font-weight:500; 
     font-size: 30px;
+    font-family: sans-serif;
 }
 .skillsBody {
     margin-left:20px;
     margin-right:20px;
     margin-top:10px;
     margin-bottom:15px;
-    color:#4b4033; 
-    font-weight:200; 
-    font-size: 20px;
+    color:#878787; 
+    font-weight:50; 
+    font-size: 15px;
+    font-family: sans-serif;
 }
 
 /***************************PROJECTS START**************************/
@@ -236,16 +238,18 @@ li a:hover {
     border: 1px solid #4b4033;
     /* border: 20px; */
     padding: 1.5vw;
-    margin: 1vw;
-    width: 90vw;
-    height: 15vw;
+    /* margin: 1vw; */
+    margin-bottom: 3vw;
+    width: 40vw;
+    height: 18vw;
     border-radius: 0.5vw;
     box-shadow: 0px 0px 10px #8a7d6e;
+    font-family: sans-serif;
 }
 .pp-title {
     /* padding-top: 25px; */
     margin: 1vw;
-    color:#4b4033; 
+    color:#8a755f; 
     margin-top: 2vw;
     font-weight:500; 
     font-size: 2vw;
@@ -253,9 +257,10 @@ li a:hover {
     /* font-family: Calibri; */
 }
 .p-title {
-    color:#29231c; 
-    font-weight:400; 
-    font-size: 30px;
+    color:#8a755f; 
+    font-weight:500; 
+    font-size: 25px;
+    font-family: sans-serif;
 }
 .p-date {
     margin-left:0.6vw;
@@ -263,15 +268,17 @@ li a:hover {
     color:#878787; 
     font-weight:100; 
     font-size: 0.75vw;
+    font-family: sans-serif;
 }
 .p-content {
     margin-left:0.5vw;
     margin-right:0.5vw;
     margin-left:0.5vw;
     margin-top:0.5vw;
-    color:#545454; 
-    font-weight:200; 
+    color:#878787; 
+    font-weight:100; 
     font-size: 1vw;
+    font-family: sans-serif;
 }
 .dash{
     border: 2px solid #48403780;
@@ -379,6 +386,14 @@ li a:hover {
 }
 
 /*******************************CONNECT START*************************************/
+.h5 {
+    color:#878787; 
+    font-weight: bold; 
+    text-align: left; 
+    font-size: 1vw;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: .5vw; /* Some padding */ 
@@ -412,15 +427,46 @@ input[type=submit]:hover {
     margin-right: 8vw;
     border-radius: 0.5vw;
     background-color: #f2f2f2;
+    border-color: #8a755f;
     border: 10vw;
     padding: 1vw;
 }
 .container3 {
+    border-color: #8a755f;
     text-align: center;
     margin-top: 5vw;
     margin-left: 5vw;
     border-left: 5vw;
-    width: 40%;
+    line-height: 1vw;
+    /* width: 40%; */
     /* list-style-type: none; */
 }
 /********************************CONNECT END************************************/
+
+/********************************SERVICE START************************************/
+.slide-container {
+    overflow: visible;
+    white-space: nowrap;
+    margin-left: -4vw;
+    margin-right: -1vw;
+    border-right: -1vw;
+}
+.img4 {
+    width: 25vw;
+    height: 25vw;
+    /* padding-top: 50px;
+    padding-left: 80px; */
+    object-fit: cover;
+    background-color: #a08971ce;
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.section5 {
+    padding: 1.5vw;
+    background-color: white;
+    border-radius: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+/********************************SERVICE END************************************/
